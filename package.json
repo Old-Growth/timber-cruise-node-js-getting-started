@@ -1,0 +1,31 @@
+{
+  "name": "timber-cruise-node-js-getting-started",
+  "version": "0.0.0",
+  "private": true,
+  "description": "",
+  "engines": {
+    "node": "12.x"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --forceExit"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.15.2",
+    "pg": "^8.3.0"
+  },
+  "devDependencies": {
+    "jest": "^26.1.0",
+    "prettier": "^2.0.5",
+    "supertest": "^4.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/old-growth/timber-cruise-node-js-getting-started"
+  },
+  "keywords": [],
+  "license": "MIT"
+}

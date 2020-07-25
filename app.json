@@ -1,0 +1,19 @@
+{
+  "name": "TimberCruise Collector",
+  "description": "Collects MetricKit JSON payloads.",
+  "website": "https://oldgrowth.tech/",
+  "repository": "https://github.com/old-growth/timber-cruise-node-js-getting-started",
+  "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/master/public/node.svg",
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "image": "heroku/nodejs",
+  "addons": [
+    {
+      "plan": "heroku-postgresql:hobby-dev",
+      "as": "DATABASE"
+    }
+  ]
+}
